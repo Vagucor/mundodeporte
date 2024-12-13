@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ligas de Baloncesto 2024</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #FF6F00; /* Color naranja baloncesto */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        /* Navegación */
+        nav {
+            background-color: #FF8C00; /* Naranja más suave */
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #FF6F00;
+        }
+
+        /* Sección de Clasificación */
+        .seccion {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            padding: 0 20px;
+        }
+
+        .clasificacion {
+            width: 45%;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .titulo {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #FF6F00;
+        }
+
+        .tabla {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        .tabla th, .tabla td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        .tabla th {
+            background-color: #FF6F00;
+            color: white;
+        }
+
+        .tabla td {
+            background-color: white;
+        }
+
+        /* Hover effect en tablas */
+        .tabla tr:hover {
+            background-color: #FFEB3B;
+        }
+
+        footer {
+            background-color: #FF6F00;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Ligas de Baloncesto 2024</h1>
+        <p>Clasificación actualizada de la NBA, Euroliga y ACB</p>
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <a href="#">NBA</a>
+        <a href="#">Euroliga</a>
+        <a href="#">ACB</a>
+    </nav>
+
+    <!-- Sección de Clasificación -->
+    <div class="seccion">
+        <!-- Clasificación NBA -->
+        <div class="clasificacion">
+            <div class="titulo">
+                <h2>Clasificación NBA 2024</h2>
+            </div>
+            <table class="tabla">
+                <thead>
+                    <tr>
+                        <th>Posición</th>
+                        <th>Equipo</th>
+                        <th>Victorias</th>
+                        <th>Derrotas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Boston Celtics</td>
+                        <td>18</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Milwaukee Bucks</td>
+                        <td>17</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Denver Nuggets</td>
+                        <td>16</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Golden State Warriors</td>
+                        <td>15</td>
+                        <td>5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Clasificación Euroliga -->
+        <div class="clasificacion">
+            <div class="titulo">
+                <h2>Clasificación Euroliga 2024</h2>
+            </div>
+            <table class="tabla">
+                <thead>
+                    <tr>
+                        <th>Posición</th>
+                        <th>Equipo</th>
+                        <th>Victorias</th>
+                        <th>Derrotas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Real Madrid</td>
+                        <td>18</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Barcelona</td>
+                        <td>17</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Fenerbahçe</td>
+                        <td>16</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Olympiacos</td>
+                        <td>15</td>
+                        <td>5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Clasificación ACB -->
+        <div class="clasificacion">
+            <div class="titulo">
+                <h2>Clasificación ACB 2024</h2>
+            </div>
+            <table class="tabla">
+                <thead>
+                    <tr>
+                        <th>Posición</th>
+                        <th>Equipo</th>
+                        <th>Victorias</th>
+                        <th>Derrotas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Real Madrid</td>
+                        <td>12</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Barcelona</td>
+                        <td>11</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Valencia Basket</td>
+                        <td>10</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Unicaja Málaga</td>
+                        <td>9</td>
+                        <td>5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Ligas de Baloncesto. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
